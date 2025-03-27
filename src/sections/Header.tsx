@@ -64,7 +64,7 @@ export const Header = () => {
             </Sheet>
 
             <nav className="hidden md:flex justify-between items-center">
-              <ul className="flex gap-6 text-muted-foreground items-center">
+              <ul className="flex gap-6 text-black/60 dark:text-neutral-300 items-center">
                 <li>
                   <Link href="#">About</Link>
                 </li>
