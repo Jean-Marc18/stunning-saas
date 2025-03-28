@@ -83,9 +83,9 @@ export const Header = () => {
               </ul>
             </nav>
 
-            <div className="flex items-center gap-4">
+            <div className="items-center gap-4 hidden md:flex">
               {/* <ToggleButton /> */}
-              <Button className="hidden md:flex">Get for free</Button>
+              <Button>Get for free</Button>
             </div>
           </div>
         </div>
