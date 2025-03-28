@@ -56,7 +56,7 @@ export const Header = () => {
                   </nav>
 
                   <div className="flex flex-col items-center gap-4">
-                    <ToggleButton />
+                    {/* <ToggleButton /> */}
                     <Button>Get for free</Button>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export const Header = () => {
             </nav>
 
             <div className="flex items-center gap-4">
-              <ToggleButton />
+              {/* <ToggleButton /> */}
               <Button className="hidden md:flex">Get for free</Button>
             </div>
           </div>
